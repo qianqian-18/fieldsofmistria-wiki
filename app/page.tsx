@@ -1,5 +1,12 @@
-import { redirect } from "next/navigation";
+import Link from "next/link";
 
 export default function Home() {
-  redirect("/en");
+  return (
+    <main>
+      <meta httpEquiv="refresh" content="0;url=/en" />
+      <p>
+        Continue to the <Link href="/en">English wiki</Link>.
+      </p>
+    </main>
+  );
 }
