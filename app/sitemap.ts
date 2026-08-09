@@ -3,6 +3,8 @@ import { getPublishedArticles } from "@/lib/content/articles";
 import { locales } from "@/lib/i18n/config";
 import { absoluteUrl, languageAlternates } from "@/lib/site";
 
+export const dynamic = "force-static";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articles = await getPublishedArticles("en");
   const fixed = ["", "/special-pages", "/privacy-policy", "/terms-of-service"];
