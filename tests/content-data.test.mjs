@@ -11,7 +11,7 @@ test("content data preserves verified codes and keyword decisions", async () => 
     readFile(new URL("content/data/locales.json", root), "utf8").then(JSON.parse),
   ]);
 
-  assert.deepEqual(home.sidebarCodes, ["暂无", "暂无"]);
+  assert.deepEqual(home.sidebarCodes, ["None available", "None available"]);
   assert.deepEqual(locales.map((item) => item.code), [
     "en", "zh-cn", "zh-tw", "fr", "ja", "ko", "ru", "es",
   ]);

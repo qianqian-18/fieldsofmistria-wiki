@@ -18,10 +18,10 @@
       "eyebrow": "Start Here",
       "title": "Your Fields of Mistria Journey",
       "cards": [
-        {"number": "1", "title": "Beginner Guide", "description": "新手入门的完整攻略介绍，包含第一天规划、赚钱方法、工具升级和基础系统教学。"},
-        {"number": "2", "title": "Farming & Resource Guide", "description": "介绍前期农场建设、种植收益、采集、矿洞资源和快速赚钱方法。"},
-        {"number": "3", "title": "Villagers & Romance Guide", "description": "帮助玩家了解NPC喜好、送礼路线、友情提升和恋爱事件。"},
-        {"number": "4", "title": "Skills & Progression", "description": "深入介绍技能升级、城镇发展、任务系统和后期玩法。"}
+        {"number": "1", "title": "Beginner Guide", "description": "A complete introduction for new players, covering first-day planning, money-making methods, tool upgrades, and the game's core systems."},
+        {"number": "2", "title": "Farming & Resource Guide", "description": "Learn how to establish your early farm, choose profitable crops, gather materials, explore the mines, and earn money efficiently."},
+        {"number": "3", "title": "Villagers & Romance Guide", "description": "Understand villager preferences, plan gifts, build friendships, and discover romance events."},
+        {"number": "4", "title": "Skills & Progression", "description": "Explore skill upgrades, town development, quests, and later-game progression in detail."}
       ]
     },
     "aboutGame": {
@@ -64,5 +64,5 @@
     "description": "Complete Fields of Mistria Wiki with farming guides, romance characters, quests, items, skills, crafting, mining and beginner tips for every player.",
     "keywords": "Fields of Mistria, Wiki, farming guide, romance, NPC Studio, Steam RPG"
   },
-  "sidebarCodes": ["暂无", "暂无"]
+  "sidebarCodes": ["None available", "None available"]
 }

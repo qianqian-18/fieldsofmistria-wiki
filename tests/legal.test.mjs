@@ -11,6 +11,6 @@ test("legal pages identify the fan site without invented operator details", asyn
   ]);
   const legal = `${privacy}\n${terms}`;
   assert.match(legal, /independent fan-made/i);
-  assert.match(legal, /待确认/);
+  assert.match(legal, /To be confirmed/);
   assert.doesNotMatch(legal, /Stardew Valley Wiki/);
 });
