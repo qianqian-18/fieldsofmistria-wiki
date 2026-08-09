@@ -1,7 +1,7 @@
 [
   {"code":"en","label":"English","short":"EN"},
-  {"code":"zh-cn","label":"简体中文","short":"简"},
-  {"code":"zh-tw","label":"繁體中文","short":"繁"},
+  {"code":"zh-cn","label":"Simplified Chinese","short":"ZH-CN"},
+  {"code":"zh-tw","label":"Traditional Chinese","short":"ZH-TW"},
   {"code":"fr","label":"Français","short":"FR"},
   {"code":"ja","label":"日本語","short":"日"},
   {"code":"ko","label":"한국어","short":"한"},

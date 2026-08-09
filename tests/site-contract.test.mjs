@@ -56,4 +56,10 @@ test("visitor-facing English content contains no Han characters", async () => {
   for (const locale of ["zh-cn", "zh-tw"]) {
     assert.match(dictionaries, new RegExp(`"${locale}": englishDictionary`));
   }
+
+  const locales = JSON.parse(await readFile(new URL("content/data/locales.json", root), "utf8"));
+  assert.deepEqual(locales.slice(1, 3).map(({ label, short }) => ({ label, short })), [
+    { label: "Simplified Chinese", short: "ZH-CN" },
+    { label: "Traditional Chinese", short: "ZH-TW" },
+  ]);
 });

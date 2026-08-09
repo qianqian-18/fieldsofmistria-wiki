@@ -15,6 +15,10 @@ test("content data preserves verified codes and keyword decisions", async () => 
   assert.deepEqual(locales.map((item) => item.code), [
     "en", "zh-cn", "zh-tw", "fr", "ja", "ko", "ru", "es",
   ]);
+  assert.deepEqual(locales.slice(1, 3).map(({ label, short }) => ({ label, short })), [
+    { label: "Simplified Chinese", short: "ZH-CN" },
+    { label: "Traditional Chinese", short: "ZH-TW" },
+  ]);
   assert.equal(keywords.filter((item) => item.status === "publish").length, 8);
   for (const keyword of [
     "fields of mistria download free",
