@@ -13,11 +13,11 @@ The previously configured `.next` output directory is also not a deployable Clou
 ## Design
 
 - Remove the corrupted npm lock file so Cloudflare performs a normal dependency installation.
-- Configure Next.js with `output: "export"` so the build produces the `out` directory expected by Cloudflare Pages.
+- Configure Next.js with `output: "export"` and `trailingSlash: true` so the build produces directory-based HTML in the `out` directory expected by Cloudflare Pages.
 - Replace the server-side root redirect with a static-export-compatible client redirect and a visible fallback link to `/en`.
 - Keep all localized and article routes statically generated through their existing `generateStaticParams` functions.
 - Configure Cloudflare Pages with production branch `main`, build command `npm run build`, and output directory `out`.
-- Set `NODE_VERSION=22` and set `NEXT_PUBLIC_SITE_URL` to the production custom-domain origin.
+- Set `NODE_VERSION=22` and `NEXT_PUBLIC_SITE_URL=https://fieldsofmistria.blog`.
 
 ## Verification
 
