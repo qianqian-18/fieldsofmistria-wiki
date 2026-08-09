@@ -1,0 +1,68 @@
+{
+  "home": {
+    "meta": {
+      "title": "Fields of Mistria Wiki — Guides, Farming, Romance",
+      "description": "Complete Fields of Mistria Wiki covering farming guides, romance characters, quests, skills, items, mining, crafting and beginner tips."
+    },
+    "hero": {
+      "eyebrow": "Fan-Made Community Wiki",
+      "title": "Fields of Mistria",
+      "description": "Fields of Mistria is a cozy farming life simulation RPG where players restore a magical village, grow farms, explore mines, build friendships and discover romance.",
+      "stats": ["Launched Aug 2024", "Full Release Aug 2026", "70 Steam Achievements", "21K+ Reviews", "10 Romance Hearts"],
+      "primaryCta": "Start Beginner Guide",
+      "secondaryCta": "Meet Villagers",
+      "tertiaryCta": "Check Item Database",
+      "videoLabel": "Official media"
+    },
+    "start": {
+      "eyebrow": "Start Here",
+      "title": "Your Fields of Mistria Journey",
+      "cards": [
+        {"number": "1", "title": "Beginner Guide", "description": "新手入门的完整攻略介绍，包含第一天规划、赚钱方法、工具升级和基础系统教学。"},
+        {"number": "2", "title": "Farming & Resource Guide", "description": "介绍前期农场建设、种植收益、采集、矿洞资源和快速赚钱方法。"},
+        {"number": "3", "title": "Villagers & Romance Guide", "description": "帮助玩家了解NPC喜好、送礼路线、友情提升和恋爱事件。"},
+        {"number": "4", "title": "Skills & Progression", "description": "深入介绍技能升级、城镇发展、任务系统和后期玩法。"}
+      ]
+    },
+    "aboutGame": {
+      "title": "What is Fields of Mistria?",
+      "paragraphs": [
+        "Fields of Mistria is a cozy farming and life simulation RPG developed by NPC Studio. Players inherit a damaged farm, rebuild a magical village and create their own peaceful adventure.",
+        "The game combines farming, exploration, crafting, mining, friendship and romance systems with charming pixel-art visuals inspired by classic farming RPGs."
+      ],
+      "stats": [
+        {"label": "Developer", "value": "NPC Studio"},
+        {"label": "Platform", "value": "Steam PC"},
+        {"label": "Genre", "value": "Farming Life Sim RPG"},
+        {"label": "Reviews", "value": "21K+ Positive Reviews"},
+        {"label": "Achievements", "value": "70 Steam Achievements"},
+        {"label": "Romance System", "value": "10 Heart Events"},
+        {"label": "Full Release", "value": "August 2026"}
+      ],
+      "cta": "Explore All Guides"
+    },
+    "finalCta": {
+      "title": "Ready to Master Fields of Mistria?",
+      "description": "From your first farm day to rebuilding the entire village, our community wiki helps you discover every secret, item, character and progression path.",
+      "primary": "Read the Beginner Guide",
+      "secondary": "Play on Steam"
+    }
+  },
+  "footer": {
+    "aboutTitle": "Fields of Mistria Wiki",
+    "about": "Fields of Mistria Wiki is an independent fan-made guide website. It covers farming strategies, villagers, romance routes, quests, items, skills and progression guides. The site is created for players looking for complete game information.",
+    "description": "Cozy farming life RPG with magic, romance, exploration and village restoration.",
+    "playGame": "Play Fields of Mistria",
+    "officialDiscord": "Community Discord",
+    "officialYoutube": "Official YouTube",
+    "communityTool": "Farm Planner",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "metadata": {
+    "title": "Fields of Mistria Wiki — Guides, Farming, Romance",
+    "description": "Complete Fields of Mistria Wiki with farming guides, romance characters, quests, items, skills, crafting, mining and beginner tips for every player.",
+    "keywords": "Fields of Mistria, Wiki, farming guide, romance, NPC Studio, Steam RPG"
+  },
+  "sidebarCodes": ["暂无", "暂无"]
+}

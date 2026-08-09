@@ -1,0 +1,10 @@
+[
+  {"code":"en","label":"English","short":"EN"},
+  {"code":"zh-cn","label":"简体中文","short":"简"},
+  {"code":"zh-tw","label":"繁體中文","short":"繁"},
+  {"code":"fr","label":"Français","short":"FR"},
+  {"code":"ja","label":"日本語","short":"日"},
+  {"code":"ko","label":"한국어","short":"한"},
+  {"code":"ru","label":"Русский","short":"RU"},
+  {"code":"es","label":"Español","short":"ES"}
+]
